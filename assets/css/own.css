@@ -1,0 +1,80 @@
+body {
+  background-color: #f9f9f9;
+}
+@font-face {
+  font-family: SSTBold;
+  src: url("../fonts/alfont_com_AlFont_com_SST-Arabic-Bold.ttf");
+}
+@font-face {
+  font-family: SSTMedium;
+  src: url("../fonts/alfont_com_AlFont_com_SST-Arabic-Medium.ttf");
+}
+@font-face {
+  font-family: SSTRoman;
+  src: url("../fonts/alfont_com_AlFont_com_SST-Arabic-Roman.ttf");
+}
+
+.navbar .navbar-nav .nav-item a,
+.desktop-nav .navbar .navbar-nav .nav-item a {
+  font-size: 26px;
+  color: #707070;
+  position: relative;
+  font-family: "SSTBold";
+  z-index: 1;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.desktop-nav .navbar {
+  background-color: #f9f9f9;
+}
+.logo-one {
+  width: 93px;
+  height: 93px;
+}
+.first-section {
+  background-image: url("../images/home-first.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+.slider-home {
+  font-size: 126px;
+  font-family: "SSTBold";
+}
+.footer-area {
+  background-image: url("../images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 388px;
+  width: 100%;
+}
+.desktop-nav .navbar .navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-widget .social-link li a i {
+  font-size: 15px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50px;
+  color: #fff;
+  background-color: transparent;
+  display: inline-block;
+}
+.footer-widget {
+  margin-bottom: 10px;
+}
+.copyright-area {
+  padding-top: 10%;
+}
+.footer-widget {
+  padding-top: 10%;
+}
