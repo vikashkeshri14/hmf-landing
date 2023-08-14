@@ -1,6 +1,9 @@
 body {
   background-color: #f9f9f9;
 }
+.navbar-area.is-sticky {
+  background-color: #f9f9f9 !important;
+}
 @font-face {
   font-family: SSTBold;
   src: url("../fonts/alfont_com_AlFont_com_SST-Arabic-Bold.ttf");
@@ -37,15 +40,36 @@ body {
   height: 93px;
 }
 .first-section {
-  background-image: url("../images/home-first.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 600px;
+  height: 550px;
 }
 .slider-home {
   font-size: 126px;
   font-family: "SSTBold";
+  -ms-text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  -o-text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  -webkit-text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  -moz-text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  color: #ffffff;
+}
+.img-header {
+  width: 200px;
+}
+.img-footer {
+  width: 250px;
+}
+.header-text {
+  font-size: 100px;
+  font-family: "SSTBold";
+  color: #959494;
+}
+.text-26 {
+  font-size: 26px;
+  color: #707070;
+  font-family: "SSTMedium";
+}
+.section-title span {
+  color: #959494;
 }
 .footer-area {
   background-image: url("../images/footer.png");
