@@ -71,6 +71,22 @@ body {
 .section-title span {
   color: #959494;
 }
+.section-title .header-text-second {
+  font-size: 100px;
+  font-family: "SSTMedium";
+  color: #60ba62;
+}
+.des {
+  color: #60ba62;
+  font-size: 26px;
+  font-family: "SSTMedium";
+}
+.section-title.text-center .text-26-des {
+  font-size: 26px;
+  color: #707070;
+  max-width: 1000px;
+  font-family: "SSTMedium";
+}
 .footer-area {
   background-image: url("../images/footer.png");
   background-size: cover;
