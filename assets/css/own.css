@@ -52,6 +52,17 @@ body {
   text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
   color: #ffffff;
 }
+.slider-home-testimonial {
+  font-size: 126px;
+  font-family: "SSTBold";
+  text-align: center;
+  -ms-text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  -o-text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  -webkit-text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  -moz-text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  text-shadow: -13px -13px 23px rgba(0, 0, 0, 0.18);
+  color: #ffffff;
+}
 .img-header {
   width: 200px;
 }
@@ -76,6 +87,11 @@ body {
   font-family: "SSTMedium";
   color: #60ba62;
 }
+.section-title .header-text-second-faq {
+  font-size: 100px;
+  font-family: "SSTMedium";
+  color: #959494;
+}
 .des {
   color: #60ba62;
   font-size: 26px;
@@ -93,6 +109,20 @@ body {
   background-repeat: no-repeat;
   max-height: 388px;
   width: 100%;
+}
+.testimonials-slider {
+  width: 35%;
+  margin: auto;
+}
+.testimonials-area .owl-nav .owl-prev,
+.testimonials-area .owl-nav .owl-next {
+  background-color: #ebebeb !important;
+  color: #484848 !important;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .desktop-nav .navbar .navbar-nav {
   margin-left: auto;
@@ -117,4 +147,7 @@ body {
 }
 .footer-widget {
   padding-top: 10%;
+}
+.mb-100 {
+  margin-bottom: 100px;
 }

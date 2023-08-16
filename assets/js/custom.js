@@ -93,22 +93,29 @@
     loop: true,
     margin: 30,
     autoHeight: true,
-    nav: false,
+    nav: true,
     rtl: true,
-    dots: true,
+    dots: false,
+    center: true,
+    width: "40%",
     autoplay: true,
     autoplayHoverPause: true,
+    singleItem: true,
     responsive: {
       0: {
         items: 1,
       },
       768: {
-        items: 2,
+        items: 1,
       },
       1000: {
-        items: 3,
+        items: 1,
       },
     },
+    navText: [
+      "<i class='flaticon-left-arrow'></i>",
+      "<i class='flaticon-chevron'></i>",
+    ],
   });
 
   // Testimonials Slider Two
