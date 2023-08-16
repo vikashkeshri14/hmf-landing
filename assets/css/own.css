@@ -103,6 +103,29 @@ body {
   max-width: 1000px;
   font-family: "SSTMedium";
 }
+.contact-img {
+  height: 487px;
+  margin: auto;
+  display: block;
+}
+.contact-form {
+  background-color: transparent;
+  padding: 0px;
+}
+.button-primary {
+  background-color: #60ba62;
+  padding: 14px;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+}
+.button-primary-cancel {
+  background-color: #e80000;
+  padding: 14px;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+}
 .footer-area {
   background-image: url("../images/footer.png");
   background-size: cover;
