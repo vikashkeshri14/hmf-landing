@@ -97,7 +97,6 @@
     rtl: true,
     dots: false,
     center: true,
-    width: "40%",
     autoplay: true,
     autoplayHoverPause: true,
     singleItem: true,
