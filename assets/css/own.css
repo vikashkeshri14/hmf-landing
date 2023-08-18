@@ -22,6 +22,9 @@ body {
   .pt-100 {
     padding-top: 10px;
   }
+  .show-mobile {
+    display: block;
+  }
   .hide-mobile {
     display: none;
   }
@@ -108,9 +111,10 @@ body {
     color: #60ba62;
   }
   .section-title .header-text-second-faq {
-    font-size: 100px;
+    font-size: 52px;
     font-family: "SSTMedium";
     color: #959494;
+    margin-top: 40px;
   }
   .des {
     color: #60ba62;
@@ -124,9 +128,7 @@ body {
     font-family: "SSTMedium";
   }
   .contact-img {
-    height: 487px;
-    margin: auto;
-    display: block;
+    height: 249px;
   }
   .apple {
     width: 200px;
@@ -141,6 +143,7 @@ body {
   .contact-form {
     background-color: transparent;
     padding: 0px;
+    margin-top: 80px;
   }
   .button-primary {
     background-color: #60ba62;
@@ -267,9 +270,9 @@ body {
     width: 206px;
     height: 206px;
     border-radius: 103px;
-    position: relative;
-    right: 63%;
-    top: 6px;
+    position: absolute;
+    left: 0px;
+    margin-top: -150px;
   }
   .w-350 {
     width: 136px;
@@ -457,6 +460,179 @@ body {
     left: 10%;
     top: 10px;
   }
+  /*faq*/
+  .faq-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    position: relative;
+    right: 0%;
+    top: 27px;
+  }
+  .faq-img-absolute {
+    position: absolute;
+    left: 6px;
+    z-index: 1000;
+    top: 20px;
+  }
+  .faq-img-270 {
+    width: 200px;
+  }
+  .faq-g-20 {
+    background-color: #60ba62;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+    bottom: 20px;
+  }
+  .faq-fourth-img {
+    position: absolute;
+    right: 0px;
+    bottom: 300px;
+  }
+  .faq-img-200 {
+    width: 120px;
+  }
+  .faq-pic {
+    position: absolute;
+    right: 84px;
+    bottom: 280px;
+  }
+  .faq-pic-200 {
+    width: 120px;
+  }
+  .faq-gray-148 {
+    background-color: #ebebeb;
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .faq-img-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .img-489-faq-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 28%;
+    top: 0%;
+  }
+  .faq-img-gray-206 {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-man-img {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 28%;
+    top: 0%;
+  }
+  /*customer review*/
+  .cus-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: 5%;
+    top: 0%;
+  }
+  .cus-man {
+    width: 190px;
+    height: 243px;
+    position: absolute;
+    right: 1%;
+    bottom: 0%;
+  }
+  .cus-gray {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 76%;
+    top: 70px;
+  }
+  .cus-female {
+    width: 190px;
+    height: 243px;
+    position: absolute;
+    left: 3%;
+    bottom: 0%;
+  }
+  /*contact */
+  .contact-green-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-right: -150px;
+    top: 50%;
+  }
+  .contact-gray-250 {
+    background-color: #ebebeb;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    /* margin: auto; */
+    position: absolute;
+    top: 20%;
+    left: 97px;
+  }
+  .contact-g-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+  .contact-g-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: 45%;
+    top: 18%;
+  }
+  .contact-gr-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: auto;
+    position: absolute;
+    bottom: 110px;
+    margin-right: 80px;
+  }
+  .contact-ab {
+    display: block;
+    position: absolute;
+    left: 35px;
+    top: 0px;
+    z-index: 10;
+  }
 }
 @media (min-width: 481px) {
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -464,6 +640,17 @@ body {
     left: auto !important;
     right: auto !important;
     top: 50px;
+  }
+  .show-mobile {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .f-270-img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
   }
   .navbar .navbar-nav .nav-item a,
   .desktop-nav .navbar .navbar-nav .nav-item a {
@@ -574,6 +761,7 @@ body {
   .contact-form {
     background-color: transparent;
     padding: 0px;
+    margin-top: 80px;
   }
   .button-primary {
     background-color: #60ba62;
@@ -882,6 +1070,177 @@ body {
     right: 99%;
     top: 10px;
   }
+  /*faq*/
+  .faq-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    position: relative;
+    right: 0%;
+    top: 27px;
+  }
+  .faq-img-absolute {
+    position: absolute;
+    left: 60px;
+  }
+  .faq-img-270 {
+    width: 270px;
+  }
+  .faq-g-20 {
+    background-color: #60ba62;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+    bottom: 20px;
+  }
+  .faq-fourth-img {
+    position: absolute;
+    right: 0px;
+    bottom: 300px;
+  }
+  .faq-img-200 {
+    width: 200px;
+  }
+  .faq-pic {
+    position: absolute;
+    right: 84px;
+    bottom: -65px;
+  }
+  .faq-pic-200 {
+    width: 200px;
+  }
+  .faq-gray-148 {
+    background-color: #ebebeb;
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-img-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .img-489-faq-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 28%;
+    top: 0%;
+  }
+  .faq-img-gray-206 {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-man-img {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 28%;
+    top: 0%;
+  }
+  /*customer review*/
+  .cus-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .cus-man {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+  }
+  .cus-gray {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .cus-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 3%;
+    top: 0%;
+  }
+  /*contact */
+  .contact-green-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-right: -150px;
+    top: 50%;
+  }
+  .contact-gray-250 {
+    background-color: #ebebeb;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    /* margin: auto; */
+    position: absolute;
+    top: 20%;
+    left: 97px;
+  }
+  .contact-g-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+  .contact-g-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: 45%;
+    top: 18%;
+  }
+  .contact-gr-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: auto;
+    position: absolute;
+    bottom: 110px;
+    margin-right: 80px;
+  }
+  .contact-ab {
+    display: block;
+    position: absolute;
+    left: 35px;
+    top: 0px;
+    z-index: 10;
+  }
 }
 @media (min-width: 641px) {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -889,6 +1248,17 @@ body {
     left: auto !important;
     right: auto !important;
     top: 50px;
+  }
+  .show-mobile {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .f-270-img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
   }
   .navbar .navbar-nav .nav-item a,
   .desktop-nav .navbar .navbar-nav .nav-item a {
@@ -999,6 +1369,7 @@ body {
   .contact-form {
     background-color: transparent;
     padding: 0px;
+    margin-top: 80px;
   }
   .button-primary {
     background-color: #60ba62;
@@ -1305,6 +1676,174 @@ body {
     position: relative;
     right: 99%;
     top: 10px;
+  }
+  /*faq*/
+  .faq-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    position: relative;
+    right: 0%;
+    top: 27px;
+  }
+  .faq-img-absolute {
+    position: absolute;
+    left: 60px;
+  }
+  .faq-img-270 {
+    width: 270px;
+  }
+  .faq-g-20 {
+    background-color: #60ba62;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+    bottom: 20px;
+  }
+  .faq-fourth-img {
+    position: absolute;
+    right: -33px;
+    bottom: 20px;
+  }
+  .faq-img-200 {
+    width: 200px;
+  }
+  .faq-pic {
+    position: absolute;
+    right: 84px;
+    bottom: -65px;
+  }
+  .faq-pic-200 {
+    width: 200px;
+  }
+  .faq-gray-148 {
+    background-color: #ebebeb;
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-img-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .img-489-faq-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 28%;
+    top: 0%;
+  }
+  .faq-img-gray-206 {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-man-img {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 28%;
+    top: 0%;
+  }
+  /*customer review*/
+  .cus-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .cus-man {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+  }
+  .cus-gray {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .cus-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 3%;
+    top: 0%;
+  }
+  /*contact */
+  .contact-green-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-right: -150px;
+    top: 50%;
+  }
+  .contact-gray-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    margin-right: -100px;
+  }
+  .contact-g-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-right: 484px;
+    top: 20%;
+  }
+  .contact-g-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    margin-right: 124px;
+    top: 50%;
+  }
+  .contact-gr-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: auto;
+    position: absolute;
+    bottom: 110px;
+    margin-right: 80px;
+  }
+  .contact-ab {
+    display: block;
+    position: relative;
   }
 }
 @media (min-width: 961px) {
@@ -1314,6 +1853,17 @@ body {
     right: auto !important;
     top: 50px;
   }
+  .show-mobile {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .f-270-img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
   .navbar .navbar-nav .nav-item a,
   .desktop-nav .navbar .navbar-nav .nav-item a {
     font-size: 26px;
@@ -1427,6 +1977,7 @@ body {
   .contact-form {
     background-color: transparent;
     padding: 0px;
+    margin-top: 80px;
   }
   .button-primary {
     background-color: #60ba62;
@@ -1729,6 +2280,174 @@ body {
     position: relative;
     right: 99%;
     top: 10px;
+  }
+  /*faq*/
+  .faq-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    position: relative;
+    right: 0%;
+    top: 27px;
+  }
+  .faq-img-absolute {
+    position: absolute;
+    left: 60px;
+  }
+  .faq-img-270 {
+    width: 270px;
+  }
+  .faq-g-20 {
+    background-color: #60ba62;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+    bottom: 20px;
+  }
+  .faq-fourth-img {
+    position: absolute;
+    right: -33px;
+    bottom: 20px;
+  }
+  .faq-img-200 {
+    width: 200px;
+  }
+  .faq-pic {
+    position: absolute;
+    right: 84px;
+    bottom: -65px;
+  }
+  .faq-pic-200 {
+    width: 200px;
+  }
+  .faq-gray-148 {
+    background-color: #ebebeb;
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-img-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .img-489-faq-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 28%;
+    top: 0%;
+  }
+  .faq-img-gray-206 {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-man-img {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 28%;
+    top: 0%;
+  }
+  /*customer review*/
+  .cus-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .cus-man {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+  }
+  .cus-gray {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .cus-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 3%;
+    top: 0%;
+  }
+  /*contact */
+  .contact-green-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-right: -150px;
+    top: 50%;
+  }
+  .contact-gray-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    margin-right: -100px;
+  }
+  .contact-g-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-right: 484px;
+    top: 20%;
+  }
+  .contact-g-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    margin-right: 124px;
+    top: 50%;
+  }
+  .contact-gr-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: auto;
+    position: absolute;
+    bottom: 110px;
+    margin-right: 80px;
+  }
+  .contact-ab {
+    display: block;
+    position: relative;
   }
 }
 @media (min-width: 1025px) {
@@ -1747,6 +2466,17 @@ body {
     margin-left: 15px;
     margin-right: 15px;
   }
+  .show-mobile {
+    display: none;
+  }
+  .hide-mobile {
+    display: block;
+  }
+  .f-270-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
   .desktop-nav .navbar {
     background-color: #f9f9f9;
   }
@@ -1845,6 +2575,7 @@ body {
   .contact-form {
     background-color: transparent;
     padding: 0px;
+    margin-top: 80px;
   }
   .button-primary {
     background-color: #60ba62;
@@ -1968,7 +2699,7 @@ body {
     height: 206px;
     border-radius: 103px;
     position: relative;
-    right: 5%;
+    right: -6%;
     top: 40px;
   }
   .w-350 {
@@ -2003,6 +2734,9 @@ body {
   }
   .w-270 {
     width: 270px;
+    position: absolute;
+    left: 50px;
+    margin-top: 100px;
   }
   .absolute-r-60 {
     position: absolute;
@@ -2065,7 +2799,7 @@ body {
   .fea-img {
     position: absolute;
     left: 0px;
-    bottom: 400px;
+    top: 100px;
     z-index: 100;
   }
   .fea-w-280 {
@@ -2074,7 +2808,7 @@ body {
   .fea-hand-img {
     position: absolute;
     left: 0px;
-    bottom: 100px;
+    top: 200px;
     z-index: 100;
   }
   .fea-hand-w {
@@ -2117,7 +2851,7 @@ body {
   .fourth-img-des {
     position: absolute;
     left: 50px;
-    top: 150px;
+    top: 100px;
   }
   .fourth-w {
     width: 270px;
@@ -2147,6 +2881,175 @@ body {
     position: relative;
     right: 99%;
     top: 10px;
+  }
+  /*faq*/
+  .faq-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    position: relative;
+    right: 0%;
+    top: 27px;
+  }
+  .faq-img-absolute {
+    position: absolute;
+    left: 60px;
+    top: 20%;
+  }
+  .faq-img-270 {
+    width: 270px;
+  }
+  .faq-g-20 {
+    background-color: #60ba62;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+    bottom: 20px;
+  }
+  .faq-fourth-img {
+    position: absolute;
+    right: -33px;
+    bottom: 20px;
+  }
+  .faq-img-200 {
+    width: 200px;
+  }
+  .faq-pic {
+    position: absolute;
+    right: 84px;
+    bottom: -65px;
+  }
+  .faq-pic-200 {
+    width: 200px;
+  }
+  .faq-gray-148 {
+    background-color: #ebebeb;
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-img-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .img-489-faq-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 28%;
+    top: 0%;
+  }
+  .faq-img-gray-206 {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-man-img {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 28%;
+    top: 0%;
+  }
+  /*customer review*/
+  .cus-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .cus-man {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+  }
+  .cus-gray {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .cus-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 3%;
+    top: 0%;
+  }
+  /*contact */
+  .contact-green-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-right: -150px;
+    top: 50%;
+  }
+  .contact-gray-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    /* margin: auto; */
+    position: absolute;
+    top: 10px;
+    right: 20%;
+  }
+  .contact-g-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    margin-right: 484px;
+    top: 20%;
+  }
+  .contact-g-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    margin-right: 124px;
+    top: 50%;
+  }
+  .contact-gr-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: auto;
+    position: absolute;
+    bottom: 110px;
+    margin-right: 80px;
+  }
+  .contact-ab {
+    display: block;
+    position: relative;
   }
 }
 @media (min-width: 1281px) {
@@ -2165,6 +3068,17 @@ body {
     margin-left: 15px;
     margin-right: 15px;
   }
+  .show-mobile {
+    display: none;
+  }
+  .hide-mobile {
+    display: block;
+  }
+  .f-270-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
   .desktop-nav .navbar {
     background-color: #f9f9f9;
   }
@@ -2263,6 +3177,7 @@ body {
   .contact-form {
     background-color: transparent;
     padding: 0px;
+    margin-top: 80px;
   }
   .button-primary {
     background-color: #60ba62;
@@ -2386,7 +3301,7 @@ body {
     height: 206px;
     border-radius: 103px;
     position: relative;
-    right: 5%;
+    right: -7%;
     top: 40px;
   }
   .w-350 {
@@ -2421,6 +3336,9 @@ body {
   }
   .w-270 {
     width: 270px;
+    position: absolute;
+    left: 50px;
+    margin-top: 100px;
   }
   .absolute-r-60 {
     position: absolute;
@@ -2483,7 +3401,7 @@ body {
   .fea-img {
     position: absolute;
     left: 0px;
-    bottom: 400px;
+    top: 100px;
     z-index: 100;
   }
   .fea-w-280 {
@@ -2492,7 +3410,7 @@ body {
   .fea-hand-img {
     position: absolute;
     left: 0px;
-    bottom: 100px;
+    top: 200px;
     z-index: 100;
   }
   .fea-hand-w {
@@ -2535,7 +3453,7 @@ body {
   .fourth-img-des {
     position: absolute;
     left: 50px;
-    top: 150px;
+    top: 100px;
   }
   .fourth-w {
     width: 270px;
@@ -2565,5 +3483,246 @@ body {
     position: relative;
     right: 99%;
     top: 10px;
+  }
+  /*faq*/
+  .faq-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    position: relative;
+    right: 0%;
+    top: 27px;
+  }
+  .faq-img-absolute {
+    position: absolute;
+    left: 60px;
+    top: 20%;
+  }
+  .faq-img-270 {
+    width: 270px;
+  }
+  .faq-g-20 {
+    background-color: #60ba62;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+    bottom: 20px;
+  }
+  .faq-fourth-img {
+    position: absolute;
+    right: -33px;
+    bottom: 20px;
+  }
+  .faq-img-200 {
+    width: 200px;
+  }
+  .faq-pic {
+    position: absolute;
+    right: 84px;
+    bottom: -65px;
+  }
+  .faq-pic-200 {
+    width: 200px;
+  }
+  .faq-gray-148 {
+    background-color: #ebebeb;
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-img-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .img-489-faq-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 28%;
+    top: 0%;
+  }
+  .faq-img-gray-206 {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .faq-man-img {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 28%;
+    top: 0%;
+  }
+
+  /*customer review*/
+  .cus-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+  }
+  .cus-man {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+  }
+  .cus-gray {
+    background-color: #ebebeb;
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    position: relative;
+    right: 99%;
+    top: 10px;
+  }
+  .cus-female {
+    width: 489px;
+    height: 625px;
+    position: absolute;
+    left: 3%;
+    top: 0%;
+  }
+  /*contact */
+  .contact-green-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-right: -150px;
+    top: 50%;
+  }
+  .contact-gray-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    /* margin: auto; */
+    position: absolute;
+    top: 10px;
+    right: 20%;
+  }
+  .contact-g-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    margin-right: 484px;
+    top: 20%;
+  }
+  .contact-g-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    margin-right: 124px;
+    top: 50%;
+  }
+  .contact-gr-250 {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: auto;
+    position: absolute;
+    bottom: 110px;
+    margin-right: 80px;
+  }
+  .contact-ab {
+    display: block;
+    position: relative;
+  }
+  /*app start*/
+  .app-green-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    left: 5%;
+    top: 44%;
+  }
+  .app-gray-148 {
+    background-color: #ebebeb;
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+    position: absolute;
+    left: 75px;
+    top: 200px;
+  }
+  .app-green-30 {
+    background-color: #60ba62;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    position: relative;
+    right: 0%;
+    top: 27px;
+  }
+  .app-img {
+    width: 270px;
+  }
+  .app-absolute {
+    position: absolute;
+    left: 60px;
+  }
+  .app-gray-text {
+    font-size: 44px;
+    color: #959494;
+    font-family: "SSTBold";
+    text-align: center;
+  }
+  .app-gray-text-center {
+    font-size: 44px;
+    color: #959494;
+    font-family: "SSTBold";
+    text-align: center;
+  }
+  .app-g-50 {
+    background-color: #60ba62;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin-right: -150px;
+    top: 50%;
+  }
+  .app-gray-200 {
+    background-color: #ebebeb;
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    position: relative;
+    right: 0;
+    top: 10px;
+  }
+  .app-gray-200-abs {
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
   }
 }
