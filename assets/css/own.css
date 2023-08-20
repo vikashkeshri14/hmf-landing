@@ -29,9 +29,27 @@ body {
     display: none;
   }
   .mobile-responsive-nav .mean-container a.meanmenu-reveal {
+    background: var(--mainColor);
     left: auto !important;
-    right: -20px !important;
-    top: 60px;
+    right: -26px !important;
+    top: 70px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    padding: 4px;
+  }
+  .mobile-responsive-nav .mean-container a.meanmenu-reveal span {
+    background: #fff;
+    height: 4px;
+    margin-top: 0px;
+    border-radius: 0;
+    position: relative;
+    top: 7px;
+  }
+  .mobile-responsive-nav .mean-container a.meanmenu-reveal {
+    color: #fff;
+  }
+  .mean-container a.meanmenu-reveal {
+    line-height: 30px;
   }
   .navbar .navbar-nav .nav-item a,
   .desktop-nav .navbar .navbar-nav .nav-item a {
@@ -284,12 +302,14 @@ body {
   .absolute-l-60 {
     position: absolute;
     left: 60px;
+    margin-top: 0px;
   }
 
   .hand-absolute {
     position: absolute;
     left: 0px;
     z-index: 100;
+    margin-top: 0px;
   }
   .home-header {
     position: absolute;
@@ -327,7 +347,7 @@ body {
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    left: -100px;
+    left: 2px;
     bottom: 20px;
   }
   .f-gray-148 {
@@ -953,8 +973,8 @@ body {
     padding-top: 0%;
   }
   .img-w-146 {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    padding-top: 20px;
   }
   .footer-widget {
     padding-top: 0%;
@@ -1034,12 +1054,14 @@ body {
   .absolute-l-60 {
     position: absolute;
     left: 60px;
+    margin-top: 0px;
   }
 
   .hand-absolute {
     position: absolute;
     left: 0px;
     z-index: 100;
+    margin-top: 0px;
   }
   .home-header {
     position: absolute;
@@ -1077,7 +1099,7 @@ body {
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    left: -100px;
+    left: 2px;
     bottom: 20px;
   }
   .f-gray-148 {
@@ -1493,6 +1515,28 @@ body {
     position: absolute;
     top: -41px;
     right: 50px;
+  }
+  .instagram {
+    width: 14px;
+    padding-top: 20px;
+  }
+  .twitter {
+    width: 14px;
+    padding-top: 20px;
+  }
+  .google-store {
+    width: 14px;
+    padding-top: 20px;
+  }
+  .apple-store {
+    width: 14px;
+    padding-top: 20px;
+  }
+  .footer-widget .social-link li {
+    margin-left: 1px !important;
+  }
+  .footer-widget .footer-contact li .content span {
+    font-size: 12px;
   }
 }
 @media (min-width: 641px) {
@@ -1681,8 +1725,8 @@ body {
     padding-top: 0%;
   }
   .img-w-146 {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    padding-top: 20px;
   }
   .footer-widget {
     padding-top: 0%;
@@ -1762,12 +1806,14 @@ body {
   .absolute-l-60 {
     position: absolute;
     left: 60px;
+    margin-top: 0px;
   }
 
   .hand-absolute {
     position: absolute;
     left: 0px;
     z-index: 100;
+    margin-top: 0px;
   }
   .home-header {
     position: absolute;
@@ -1805,7 +1851,7 @@ body {
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    left: -100px;
+    left: 20px;
     bottom: 20px;
   }
   .f-gray-148 {
@@ -2221,6 +2267,28 @@ body {
     position: absolute;
     top: -41px;
     right: 50px;
+  }
+  .instagram {
+    width: 14px;
+    padding-top: 20px;
+  }
+  .twitter {
+    width: 14px;
+    padding-top: 20px;
+  }
+  .google-store {
+    width: 14px;
+    padding-top: 20px;
+  }
+  .apple-store {
+    width: 14px;
+    padding-top: 20px;
+  }
+  .footer-widget .social-link li {
+    margin-left: 1px !important;
+  }
+  .footer-widget .footer-contact li .content span {
+    font-size: 12px;
   }
 }
 @media (min-width: 961px) {
@@ -2486,12 +2554,14 @@ body {
   .absolute-l-60 {
     position: absolute;
     left: 60px;
+    margin-top: -50px;
   }
 
   .hand-absolute {
     position: absolute;
     left: 0px;
     z-index: 100;
+    margin-top: -50px;
   }
   .home-header {
     position: absolute;
@@ -2508,9 +2578,9 @@ body {
     top: 27px;
   }
   .w-270 {
-    width: 270px;
+    width: 230px;
     position: absolute;
-    left: 50px;
+    left: 80px;
     margin-top: 100px;
   }
   .absolute-r-60 {
@@ -2527,7 +2597,7 @@ body {
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    left: -100px;
+    left: 2px;
     bottom: 20px;
   }
   .f-gray-148 {
@@ -2536,7 +2606,7 @@ body {
     height: 148px;
     border-radius: 74px;
     position: relative;
-    right: 99%;
+    right: 90%;
     top: 10px;
   }
   .fif-gr-30 {
@@ -2654,7 +2724,7 @@ body {
     height: 148px;
     border-radius: 74px;
     position: relative;
-    right: 99%;
+    right: 90%;
     top: 10px;
   }
   /*faq*/
@@ -2681,7 +2751,7 @@ body {
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    left: -100px;
+    left: 2px;
     bottom: 20px;
   }
   .faq-fourth-img {
@@ -2706,7 +2776,7 @@ body {
     height: 148px;
     border-radius: 74px;
     position: relative;
-    right: 99%;
+    right: 90%;
     top: 10px;
   }
   .faq-img-30 {
@@ -2898,6 +2968,24 @@ body {
     position: absolute;
     top: 100px;
     right: 100px;
+  }
+  .instagram {
+    width: 30px;
+  }
+  .twitter {
+    width: 30px;
+  }
+  .google-store {
+    width: 30px;
+  }
+  .apple-store {
+    width: 30px;
+  }
+  .footer-widget .social-link li {
+    margin-left: 10px !important;
+  }
+  .footer-widget .footer-contact li .content span {
+    font-size: 15px;
   }
 }
 @media (min-width: 1025px) {
@@ -3162,12 +3250,14 @@ body {
   .absolute-l-60 {
     position: absolute;
     left: 60px;
+    margin-top: -50px;
   }
 
   .hand-absolute {
     position: absolute;
     left: 0px;
     z-index: 100;
+    margin-top: -50px;
   }
   .home-header {
     position: absolute;
@@ -3184,9 +3274,9 @@ body {
     top: 27px;
   }
   .w-270 {
-    width: 270px;
+    width: 230px;
     position: absolute;
-    left: 50px;
+    left: 80px;
     margin-top: 100px;
   }
   .absolute-r-60 {
@@ -3203,7 +3293,7 @@ body {
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    left: -100px;
+    left: 2px;
     bottom: 20px;
   }
   .f-gray-148 {
@@ -3212,7 +3302,7 @@ body {
     height: 148px;
     border-radius: 74px;
     position: relative;
-    right: 99%;
+    right: 90%;
     top: 10px;
   }
   .fif-gr-30 {
@@ -3330,7 +3420,7 @@ body {
     height: 148px;
     border-radius: 74px;
     position: relative;
-    right: 99%;
+    right: 90%;
     top: 10px;
   }
   /*faq*/
@@ -3357,7 +3447,7 @@ body {
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    left: -100px;
+    left: 2px;
     bottom: 20px;
   }
   .faq-fourth-img {
@@ -3382,7 +3472,7 @@ body {
     height: 148px;
     border-radius: 74px;
     position: relative;
-    right: 99%;
+    right: 90%;
     top: 10px;
   }
   .faq-img-30 {
@@ -3574,6 +3664,24 @@ body {
     position: absolute;
     top: 100px;
     right: 100px;
+  }
+  .instagram {
+    width: 30px;
+  }
+  .twitter {
+    width: 30px;
+  }
+  .google-store {
+    width: 30px;
+  }
+  .apple-store {
+    width: 30px;
+  }
+  .footer-widget .social-link li {
+    margin-left: 10px !important;
+  }
+  .footer-widget .footer-contact li .content span {
+    font-size: 15px;
   }
 }
 @media (min-width: 1281px) {
@@ -3838,12 +3946,14 @@ body {
   .absolute-l-60 {
     position: absolute;
     left: 60px;
+    margin-top: -50px;
   }
 
   .hand-absolute {
     position: absolute;
     left: 0px;
     z-index: 100;
+    margin-top: -50px;
   }
   .home-header {
     position: absolute;
@@ -3860,9 +3970,9 @@ body {
     top: 27px;
   }
   .w-270 {
-    width: 270px;
+    width: 230px;
     position: absolute;
-    left: 50px;
+    left: 80px;
     margin-top: 100px;
   }
   .absolute-r-60 {
@@ -3879,7 +3989,7 @@ body {
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    left: -100px;
+    left: 2px;
     bottom: 20px;
   }
   .f-gray-148 {
@@ -3888,7 +3998,7 @@ body {
     height: 148px;
     border-radius: 74px;
     position: relative;
-    right: 99%;
+    right: 90%;
     top: 10px;
   }
   .fif-gr-30 {
@@ -4006,7 +4116,7 @@ body {
     height: 148px;
     border-radius: 74px;
     position: relative;
-    right: 99%;
+    right: 90%;
     top: 10px;
   }
   /*faq*/
@@ -4033,7 +4143,7 @@ body {
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    left: -100px;
+    left: 2px;
     bottom: 20px;
   }
   .faq-fourth-img {
@@ -4058,7 +4168,7 @@ body {
     height: 148px;
     border-radius: 74px;
     position: relative;
-    right: 99%;
+    right: 90%;
     top: 10px;
   }
   .faq-img-30 {
@@ -4253,19 +4363,15 @@ body {
   }
   .instagram {
     width: 30px;
-    height: 26px;
   }
   .twitter {
     width: 30px;
-    height: 26px;
   }
   .google-store {
     width: 30px;
-    height: 30px;
   }
   .apple-store {
     width: 30px;
-    height: 26px;
   }
   .footer-widget .social-link li {
     margin-left: 10px !important;
