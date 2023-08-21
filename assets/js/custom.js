@@ -475,6 +475,17 @@
   //$('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
 })($);
 
+$(".meanmenu-reveal").click(function () {
+  //$(".first-section").toggleClass("blg");
+  $(".home-header").toggleClass("blg");
+  $(".img-footer-relative").toggleClass("blg");
+
+  $(".second-section").toggleClass("blg");
+  $(".third-section").toggleClass("blg");
+  $(".fourth-section").toggleClass("blg");
+  //$(".first-section").toggleClass('blg');
+});
+
 // function to set a given theme/color-scheme
 function setTheme(themeName) {
   localStorage.setItem("ledu_rtl_theme", themeName);
