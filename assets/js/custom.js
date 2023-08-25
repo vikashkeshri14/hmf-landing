@@ -483,6 +483,11 @@ $(".meanmenu-reveal").click(function () {
   $(".second-section").toggleClass("blg");
   $(".third-section").toggleClass("blg");
   $(".fourth-section").toggleClass("blg");
+  $(".featured-area").toggleClass("blg");
+  $(".testimonials-area").toggleClass("blg");
+  $(".footer-area").toggleClass("blg");
+  $(".show-mobile").toggleClass("blg");
+
   //$(".first-section").toggleClass('blg');
 });
 
@@ -508,6 +513,6 @@ function toggleTheme() {
     document.getElementById("slider").checked = false;
   } else {
     setTheme("theme-light");
-    document.getElementById("slider").checked = true;
+    // document.getElementById("slider").checked = true;
   }
 })();
