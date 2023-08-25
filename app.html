@@ -109,26 +109,50 @@
     <div class="featured-area pt-100 mb-100 pb-70">
       <div class="container">
         <div class="app-green-50">&nbsp;</div>
-        <div class="app-gray-148">&nbsp;</div>
-        <div class="app-absolute">
-          <img src="./assets/images/faq.png" class="app-img" alt="img" />
-        </div>
 
+        <div class="app-absolute">
+          <img src="./assets/images/app-header.png" class="app-img" alt="img" />
+        </div>
+        <div class="mt-1 show-mobile">&nbsp;</div>
+        <div class="mt-1 show-mobile">&nbsp;</div>
+        <div class="mt-1 show-mobile">&nbsp;</div>
+        <div class="mt-1 show-mobile">&nbsp;</div>
+        <div class="mt-1 show-mobile">&nbsp;</div>
+        <div class="mt-1 show-mobile">&nbsp;</div>
         <div class="row align-items-center mb-45">
           <div class="col-lg-12 col-md-12">
             <div class="app-green-30">&nbsp;</div>
             <div class="section-title pt-100 text-center mt-rs-20">
+              <h1 class="text-app-header text-center show-mobile">
+                حمل التطبيق
+              </h1>
               <div class="row">
                 <div class="col">
                   <h1 class="app-text-gray">متجر قوقل</h1>
-                  <div class="">
+                  <div
+                    onclick="$('.google').toggle();$('.google-select').toggle()"
+                  >
                     <img class="google" src="./assets/images/google.png" />
+                    <img
+                      class="google-select"
+                      style="display: none"
+                      src="./assets/images/google-select.png"
+                    />
                   </div>
                 </div>
                 <div class="col">
                   <h1 class="app-gray-text-center">متجر أبل</h1>
-                  <div class="">
+                  <div
+                    class="text-right"
+                    onclick="$('.apple').toggle();$('.apple-selec').toggle()"
+                  >
                     <img class="apple" src="./assets/images/apple.png" />
+                    <img
+                      style="display: none"
+                      src="./assets/images/app-selec.png"
+                      class="apple-selec"
+                      alt="img"
+                    />
                   </div>
                 </div>
               </div>
