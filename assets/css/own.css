@@ -57,6 +57,14 @@ body {
     a {
     border-top-color: #5baf5d;
   }
+  .mobile-responsive-nav
+    .mobile-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.active {
+    color: #fff;
+  }
   .menu-img {
     width: 35px;
     height: 30px;
@@ -66,6 +74,7 @@ body {
   }
   .mobile-responsive-nav {
     position: fixed;
+    z-index: 10000;
   }
   .pt-100 {
     padding-top: 10px;
@@ -573,11 +582,14 @@ body {
     top: 10px;
     z-index: 100;
   }
+
+  .clearrx {
+    clear: both;
+  }
   .head-home-ab {
-    position: inherit;
     left: 0px;
     top: 10px;
-    margin-right: 121px;
+    float: left;
   }
   .head-home {
     width: 239px;
@@ -938,19 +950,19 @@ body {
     right: 50px;
   }
   .instagram {
-    width: 14px;
+    width: 10.87px;
     padding-top: 20px;
   }
   .twitter {
-    width: 14px;
+    width: 9.22px;
     padding-top: 20px;
   }
   .google-store {
-    width: 14px;
+    width: 9.77px;
     padding-top: 20px;
   }
   .apple-store {
-    width: 14px;
+    width: 10.75px;
     padding-top: 20px;
   }
   .footer-widget .social-link li {
@@ -977,6 +989,14 @@ body {
     color: #959494;
     margin-bottom: 10px;
   }
+  .mobile-responsive-nav
+    .mobile-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.active {
+    color: #fff;
+  }
   .blg {
     filter: blur(4px);
     -webkit-filter: blur(4px);
@@ -1013,6 +1033,7 @@ body {
   }
   .mobile-responsive-nav {
     position: fixed;
+    z-index: 10000;
   }
   .pt-100 {
     padding-top: 10px;
@@ -1885,19 +1906,19 @@ body {
     right: 50px;
   }
   .instagram {
-    width: 14px;
+    width: 10.87px;
     padding-top: 20px;
   }
   .twitter {
-    width: 14px;
+    width: 9.22px;
     padding-top: 20px;
   }
   .google-store {
-    width: 14px;
+    width: 9.77px;
     padding-top: 20px;
   }
   .apple-store {
-    width: 14px;
+    width: 10.75px;
     padding-top: 20px;
   }
   .footer-widget .social-link li {
@@ -1924,6 +1945,14 @@ body {
     color: #959494;
     margin-bottom: 10px;
   }
+  .mobile-responsive-nav
+    .mobile-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.active {
+    color: #fff;
+  }
   .blg {
     filter: blur(4px);
     -webkit-filter: blur(4px);
@@ -1960,6 +1989,7 @@ body {
   }
   .mobile-responsive-nav {
     position: fixed;
+    z-index: 10000;
   }
   .pt-100 {
     padding-top: 10px;
@@ -2832,19 +2862,19 @@ body {
     right: 50px;
   }
   .instagram {
-    width: 14px;
+    width: 10.87px;
     padding-top: 20px;
   }
   .twitter {
-    width: 14px;
+    width: 9.22px;
     padding-top: 20px;
   }
   .google-store {
-    width: 14px;
+    width: 9.77px;
     padding-top: 20px;
   }
   .apple-store {
-    width: 14px;
+    width: 10.75px;
     padding-top: 20px;
   }
   .footer-widget .social-link li {
@@ -2867,6 +2897,14 @@ body {
   .container-fluid {
     width: 100% !important;
     max-width: 100% !important;
+  }
+  .mobile-responsive-nav
+    .mobile-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.active {
+    color: var(--mainColor);
   }
   .navbar-brand {
     margin-right: 20px;
@@ -3574,16 +3612,16 @@ body {
     right: 100px;
   }
   .instagram {
-    width: 30px;
+    width: 29.42px;
   }
   .twitter {
-    width: 30px;
+    width: 27.05px;
   }
   .google-store {
-    width: 30px;
+    width: 26.46px;
   }
   .apple-store {
-    width: 30px;
+    width: 29.11px;
   }
   .footer-widget .social-link li {
     margin-left: 10px !important;
@@ -3667,6 +3705,14 @@ body {
     width: 100% !important;
     max-width: 100% !important;
   }
+  .mobile-responsive-nav
+    .mobile-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.active {
+    color: var(--mainColor);
+  }
   .navbar-brand {
     margin-right: 20px;
   }
@@ -4373,16 +4419,16 @@ body {
     right: 100px;
   }
   .instagram {
-    width: 30px;
+    width: 29.42px;
   }
   .twitter {
-    width: 30px;
+    width: 27.05px;
   }
   .google-store {
-    width: 30px;
+    width: 26.46px;
   }
   .apple-store {
-    width: 30px;
+    width: 29.11px;
   }
   .footer-widget .social-link li {
     margin-left: 10px !important;
@@ -4466,6 +4512,14 @@ body {
     width: 100% !important;
     max-width: 100% !important;
   }
+  .mobile-responsive-nav
+    .mobile-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.active {
+    color: var(--mainColor);
+  }
   .navbar-brand {
     margin-right: 20px;
   }
@@ -5172,16 +5226,16 @@ body {
     right: 100px;
   }
   .instagram {
-    width: 30px;
+    width: 29.42px;
   }
   .twitter {
-    width: 30px;
+    width: 27.05px;
   }
   .google-store {
-    width: 30px;
+    width: 26.46px;
   }
   .apple-store {
-    width: 30px;
+    width: 29.11px;
   }
   .footer-widget .social-link li {
     margin-left: 10px !important;
@@ -5264,6 +5318,14 @@ body {
   .contact-form .form-group .form-control {
     height: 64px;
     width: 524px;
+  }
+  .mobile-responsive-nav
+    .mobile-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.active {
+    color: var(--mainColor);
   }
   .contact-form .form-group textarea.form-control {
     height: 338px;
@@ -6004,16 +6066,16 @@ body {
     right: 100px;
   }
   .instagram {
-    width: 30px;
+    width: 29.42px;
   }
   .twitter {
-    width: 30px;
+    width: 27.05px;
   }
   .google-store {
-    width: 30px;
+    width: 26.46px;
   }
   .apple-store {
-    width: 30px;
+    width: 29.11px;
   }
   .footer-widget .social-link li {
     margin-left: 10px !important;

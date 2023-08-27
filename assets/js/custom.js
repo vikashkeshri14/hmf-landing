@@ -483,10 +483,10 @@ $(".meanmenu-reveal").click(function () {
   $(".second-section").toggleClass("blg");
   $(".third-section").toggleClass("blg");
   $(".fourth-section").toggleClass("blg");
-  $(".featured-area").toggleClass("blg");
+  //$(".featured-area").toggleClass("blg");
   $(".testimonials-area").toggleClass("blg");
   $(".footer-area").toggleClass("blg");
-  $(".show-mobile").toggleClass("blg");
+  $(".head-home").toggleClass("blg");
 
   //$(".first-section").toggleClass('blg');
 });
